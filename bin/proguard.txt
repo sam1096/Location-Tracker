@@ -1,0 +1,9 @@
+# view AndroidManifest.xml #generated:20
+-keep class a.b.MainActivity { <init>(...); }
+
+# onClick res/layout/speak.xml #generated:10
+-keepclassmembers class * { *** speakClick(...); }
+
+# onClick res/layout/main.xml #generated:63
+-keepclassmembers class * { *** submitclick(...); }
+

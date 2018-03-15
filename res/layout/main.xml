@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/myColor"
+    
+    >
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter your name"
+    />
+
+<EditText
+    android:id="@+id/name"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:hint="Name"
+    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    />
+
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Enter your mobile no"
+    
+   
+    />
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberSigned" 
+    android:id="@+id/mobile"
+    android:maxLength="10"
+    
+    />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Help Buddy name "
+    />
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/bname"
+    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+    
+    />
+<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Help Buddy no."
+    />
+<EditText
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:inputType="numberSigned" 
+    android:id="@+id/bmobile"
+    android:maxLength="10"
+    />
+
+<Button
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Submit"
+    android:onClick="submitclick"
+    />
+
+</LinearLayout>
+
